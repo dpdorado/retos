@@ -6,6 +6,7 @@ section,button{
     display: block;
 }
 .contenedor{
+    font: 120% sans-serif;
     text-align: center;
 }
  
