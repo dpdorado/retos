@@ -9,6 +9,7 @@ section,button{
 .descripcion{
     font: 150% sans-serif;
     text-align: center;
+    font-weight: bold;
 }
 
 .parrafoNoticia{
