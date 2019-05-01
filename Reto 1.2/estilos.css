@@ -9,6 +9,8 @@ section,button{
 .descripcion{
     font: 150% sans-serif;
     text-align: center;
+}
+.titulo{
     font-weight: bold;
 }
 
