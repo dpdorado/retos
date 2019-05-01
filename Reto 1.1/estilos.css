@@ -11,4 +11,9 @@
     top: 10px;
     left: 10px;
 }
+.descripcion{
+    font: oblique bold 120% cursive;
+    color: red;
+    text-align: center;
+}
 
