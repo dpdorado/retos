@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+section,button{
+    display: block;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    font: oblique bold 120% cursive;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
