@@ -18,4 +18,8 @@ section,button{
     top: 10px;
     left: 10px;
 }
+.descripcion{
+    font: 150% sans-serif;
+    text-align: center;
+}
 
