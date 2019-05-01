@@ -10,9 +10,8 @@ section,button{
     font: 150% sans-serif;
     text-align: center;
 }
-.titulol{
-    font: 150% sans-serif;
-    text-align: center;
+.titulos{
+	font-weight: bolder
 }
 
 .parrafoNoticia{
