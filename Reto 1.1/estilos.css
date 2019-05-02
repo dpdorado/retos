@@ -15,14 +15,6 @@
     top: 10px;
     left: 10px;
 }
-.texto-enn {
-    padding-left: 30px;
-    padding-top: 17px;
-    font-family: "Mystery Quest", cursive;
-    font-size: 50px;
-    color: #0D4383;
-    text-shadow: #000000 -1px 0, #000000 0 -1px, #ffffff 0 1px 1px, #000000 -1px -2px 1px;
-    }
 
 @font-face {
     font-family: Zombie_Holocaust;
