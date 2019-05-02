@@ -6,23 +6,27 @@
             function click_1(){
                 document.getElementById('titulo').style.color = '#FFB6C1';
                 document.getElementById('parrafo').style.color = '#00FFD6';
-                document.getElementById('imagen').innerHTML='<img src="uni.jpg">';
+                //document.getElementById('fondo').style.background='#C433FF';
+                document.getElementById('body').style.backgroundImage='url(uni.jpg)';
+               
             }
         </script>
         <title>Reto 1.2</title>
     </head>
-    <body>
-        <section>
-            <div class="descripcion">
-                <h1>Esmeralda de Poder</h1>
-                <p class="parrafoNoticia">Incluye un botón que convierta un artículo de noticias (la noticia puede ser tomada de internet) en una versión rosa con unicornios. </p>
+    <body id="body">
+        <section >
+            <div id="fondo">
+                <div class="descripcion">
+                    <h1>Esmeralda de Poder</h1>
+                    <p class="parrafoNoticia">Incluye un botón que convierta un artículo de noticias (la noticia puede ser tomada de internet) en una versión rosa con unicornios. </p>
+                </div>
+                <div id="uni" class="descripcion">
+                    <h1 id="titulo" class="titulos">Guaidó llama a 'paros escalonados' hasta 'huelga general' en Venezuela</h1>
+                    <p class="parrafoNoticia" id="parrafo">El presidente encargado venezolano se pronunció frente a miles de seguidores  en Caracas. </p>
+                    <div id="imagen"><img src="eje.jpeg"></div>
+                </div>   
+                <button class="btn1" onclick="click_1()" type="button">Cambiar estilo</button>
             </div>
-            <div id="uni" class="descripcion">
-                <h1 id="titulo" class="titulos">Guaidó llama a 'paros escalonados' hasta 'huelga general' en Venezuela</h1>
-                <p class="parrafoNoticia" id="parrafo">El presidente encargado venezolano se pronunció frente a miles de seguidores  en Caracas. </p>
-                <div id="imagen"><img src="eje.jpeg"></div>
-            </div>   
-            <button class="btn1" onclick="click_1()" type="button">Cambiar estilo</button>
         </section>
     </body>
 </html>
