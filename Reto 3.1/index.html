@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos.css">
+        <meta charset="UTF-8">
+        <script type="text/javascript">
+            function click_1(){
+                document.getElementById('titulo').style.color = '#FFB6C1';
+                document.getElementById('parrafo').style.color = '#00FFD6';
+                document.getElementById('imagen').innerHTML='<img src="uni.jpg">';
+            }
+        </script>
+        <title>Reto 1.2</title>
+    </head>
+    <body>
+        <div>
+            <p>Crear una función en JavaScript que dado un título de una noticia, se transforma las vocales del así:
+                A = Rombo,E = Pica,I = Corazón, O = Carita Feliz, U = Carita triste
+                El algoritmo debe servir para cualquier título.
+                Poner una caja de texto que permita recibir el texto del título de la noticia y un botón que cambia el texto.
+                Poner un botón que cambia las vocales.</p>
+        </div>
+        <section>
+            <div id="uni" class="contenedor">
+                <h1 id="titulo">Pico y placa en Bogotá: así rige la medida en mayo de 2019</h1>
+                <p id="parrafo">Recuerde que la restricción de pico y placa en Bogotá para particulares va de 6:00 a.m. a 8:30 a.m. y de 3:00 p.m. a 7:30 p.m.</p>
+                <div id="imagen"><img src="eje.jpeg"></div>
+            </div>   
+            <input type="text" name="text1" id="text1" onkeyup="copiar()">
+            <button  onclick="click_1()" type="button">Cambiar estilo</button>
+            
+
+        </section>
+    </body>
+</html>

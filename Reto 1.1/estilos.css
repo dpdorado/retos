@@ -6,15 +6,33 @@
  
 .texto-en{
     text-align: left; 
-    font-family:  "New Century Schoolbook", Times, serif;
-    font-weight:bold; 
-    font-size: 25px; 
-    color: #EBD758; 
+    font-family: Zombie_Holocaust;
+    font-weight: bold; 
+    font-size: 45px; 
+    color: #c53f3f; 
     text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
     position: absolute;
     top: 10px;
     left: 10px;
 }
+.texto-enn {
+    padding-left: 30px;
+    padding-top: 17px;
+    font-family: "Mystery Quest", cursive;
+    font-size: 50px;
+    color: #0D4383;
+    text-shadow: #000000 -1px 0, #000000 0 -1px, #ffffff 0 1px 1px, #000000 -1px -2px 1px;
+    }
+
+@font-face {
+    font-family: Zombie_Holocaust;
+    src: url("fuente/Zombie_Holocaust.ttf");
+}
+@font-face {
+    font-family: Acorn_Initials;
+    src: url("fuente/Acorn_Initials.ttf");
+}
+
 
 .descripcion{
     font: 150% sans-serif;
