@@ -6,7 +6,7 @@
  
 .texto-en{
     text-align: left; 
-    font-family: Sans-serif;
+    font-family: SZombie_Holocaust;
     font-weight: bold; 
     font-size: 45px; 
     color: #c53f3f; 
@@ -16,13 +16,10 @@
     left: 10px;
 }
 
-@font-face {
-    font-family: Zombie_Holocaust;
+@font-face{
     src: url("fuente/Zombie_Holocaust.ttf");
-}
-@font-face {
-    font-family: Acorn_Initials;
-    src: url("fuente/Acorn_Initials.ttf");
+    font-family: Zombie_Holocaust;
+    
 }
 
 
