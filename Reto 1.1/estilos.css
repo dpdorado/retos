@@ -4,13 +4,18 @@
     text-align: center;
 }
  
-.texto-encima{
-    font: oblique bold 120% cursive;
-    color: white;
+.texto-en{
+    text-align: left; 
+    font-family:  Wingdings, ‘Zapf Dingbats’, sans-serif;
+    font-weight:bold; 
+    font-size: 20px; 
+    color: #EBD758; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
     position: absolute;
     top: 10px;
     left: 10px;
 }
+
 .descripcion{
     font: 150% sans-serif;
     text-align: center;
